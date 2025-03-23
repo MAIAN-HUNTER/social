@@ -1,11 +1,11 @@
 .container {
   display: grid;
   position: relative;
-  grid-template-columns: minmax(200px);
+  margin-left: -45;
+  height: 240px;
   border-bottom-right-radius: 8px;
   border-top-right-radius: 8px;
   background-color: white;
-  margin-left: -55px;
 }
 
 .glass {
@@ -131,8 +131,10 @@
 @media (max-width: 400px) {
   .container {
     margin-left: 0px;
+    margin-top: -40px;
     position: absolute;
-    max-width: 250px;
+    width: 250px;
+    height: 300px;
     border-top-left-radius: 0px;
     border-top-right-radius: 0px;
     border-bottom-left-radius: 8px;
@@ -163,7 +165,7 @@
     border: solid hsl(212, 23%, 69%);
     z-index: 20;
     max-width: 16px;
-    max-height: 12px;
+    max-height: 16px;
   }
 
   .btn img {
