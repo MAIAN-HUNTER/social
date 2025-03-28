@@ -128,7 +128,7 @@
   color: hsl(214, 17%, 51%);
 }
 
-@media (max-width: 400px) {
+@media (max-width: 600px) {
   .container {
     margin-left: 0px;
     margin-top: -40px;
